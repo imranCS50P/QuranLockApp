@@ -154,7 +154,9 @@ class WordOverlayService : Service() {
             autoDismissRunnable = Runnable {
                 removeOverlayAndStop()
             }
-            autoDismissHandler?.postDelayed(autoDismissRunnable!, seconds * 1000L)
+            autoDismissRunnable?.let {
+                autoDismissHandler?.postDelayed(it, seconds * 1000L)
+            }
         }
     }
 
