@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">QuranLock</string>
+    <string name="app_subtitle">500 Common Words of the Quran</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Quranic Vocabulary</string>
+    <string name="unlock_service_title">Screen Unlock Learning</string>
+    <string name="unlock_service_desc">Shows a Quranic word card each time you unlock your phone.</string>
+    <string name="words_mastered_label">Words Mastered</string>
+    <string name="browse_words_btn">Browse 500 Words</string>
+    <string name="settings_btn">Settings &amp; Permissions</string>
+    <string name="test_overlay_btn">Test Overlay Now</string>
+    
+    <!-- Word Card -->
+    <string name="next_word">Next Word</string>
+    <string name="mark_memorized">Mark Memorized</string>
+    <string name="memorized">Memorized ⭐</string>
+    <string name="close">Close</string>
+    <string name="occurrences_format">Appears %s times in the Quran</string>
+    <string name="ayah_example_title">Qur\'anic Example</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">App Settings</string>
+    <string name="permission_overlay_title">Draw Over Other Apps</string>
+    <string name="permission_overlay_desc">Required to show the word card instantly upon screen unlock.</string>
+    <string name="permission_battery_title">Battery Optimization Exemption</string>
+    <string name="permission_battery_desc">Prevents system battery killer from stopping the unlock listener.</string>
+    <string name="display_mode_title">Display Mode</string>
+    <string name="auto_close_title">Auto-Dismiss Overlay</string>
+    <string name="interval_title">Minimum Interval Between Words</string>
+    <string name="reset_progress_title">Reset Learning Progress</string>
+    <string name="grant_permission">Grant</string>
+    <string name="granted">Granted ✓</string>
+    
+    <!-- Notification -->
+    <string name="notification_channel_name">QuranLock Background Service</string>
+    <string name="notification_channel_desc">Keeps the screen unlock vocabulary service active.</string>
+    <string name="notification_title">QuranLock is Active</string>
+    <string name="notification_text">Learning 500 common Quranic words on each unlock.</string>
+</resources>
